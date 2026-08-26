@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "rgs" {
 
 resource "azurerm_resource_group" "rgs" {
   name     = "rg-two"
-  location = "West India"
+  location = "South India"
 }
 
 
