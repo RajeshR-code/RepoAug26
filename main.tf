@@ -9,7 +9,7 @@ resource "azurerm_network_security_group" "vnet" {
   resource_group_name = "rg-one"
 }
 
-resource "azurerm_subnet" "example" {
+resource "azurerm_subnet" "subnets" {
   name                 = "rr-subnet"
   resource_group_name  = "rr-rg"
   virtual_network_name = "rr-vnet"
