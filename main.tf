@@ -5,8 +5,9 @@ resource "azurerm_resource_group" "rgs" {
 
 resource "azurerm_resource_group" "rgs" {
   name     = "rg-two"
-  location = "Central Australia"
+  location = "South India"
 }
+
 
 resource "azurerm_network_security_group" "vnet" {
   name                = "rr-vnet"
