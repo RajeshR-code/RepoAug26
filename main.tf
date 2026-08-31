@@ -8,6 +8,11 @@ resource "azurerm_resource_group" "rgs" {
   location = "South India"
 }
 
+resource "azurerm_resource_group" "rg3" {
+  name     = "rg-three"
+  location = "Central India"
+}
+
 
 resource "azurerm_network_security_group" "vnet" {
   name                = "rr-vnet"
