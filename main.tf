@@ -9,7 +9,11 @@ resource "azurerm_resource_group" "rgs" {
 }
 
 resource "azurerm_resource_group" "rg3" {
-  name     = "rg-three"
+  name     = "rg-"
+  location = "Central India"
+}
+resource "azurerm_resource_group" "rg4" {
+  name     = "rg-Faur"
   location = "Central India"
 }
 resource "azurerm_resource_group" "rgs" {
