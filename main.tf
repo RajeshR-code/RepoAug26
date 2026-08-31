@@ -27,8 +27,8 @@ resource "azurerm_network_security_group" "vnet" {
 }
 
 resource "azurerm_network_security_group" "vnet" {
-  name                = "manish-vnet"
-  location            = "Central India"
+  name                = "ManishKumarSatyarthi-vnet"
+  location            = "West India"
   resource_group_name = "rg-one"
 }
 
